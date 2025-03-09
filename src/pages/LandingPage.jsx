@@ -27,7 +27,7 @@ const LandingPage = () => {
             <div className="m-10 flex justify-end">
               <Button
                 buttonText={"Get Started"}
-                onClick={() => navigate("/signup")}
+                onClick={() => navigate("/login")}
               />
               <Button buttonText={"Learn More"} onClick={scrollToKeyFeatures} />
             </div>
